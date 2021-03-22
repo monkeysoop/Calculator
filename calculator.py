@@ -187,7 +187,7 @@ def add(f):
 #Run
 
 def run(a):
-    #"""
+    """
     a=parantheses(a) 
     a=absolute(a)
     a=mod(a)
@@ -215,7 +215,7 @@ def run(a):
     except:
         print("syntax error")
         exit()
-    """
+    #"""
 def graph(s):
     global a
     xcords=[]
