@@ -242,8 +242,7 @@ def graph(s):
             ycords.append(a)
             xcords.append(x)
         except:
-            print("syntax error")
-            exit()
+            pass
         a=[]
     time6=time.time()
     print("Time taken for graphing:",time6-time5)
